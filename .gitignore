@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+demo/
+.sor-results.json
+structured-output-repairer-codex.log
+structured-output-repairer-launch.py
+structured-output-repairer-prompt.txt

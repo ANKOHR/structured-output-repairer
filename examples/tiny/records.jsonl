@@ -1,0 +1,6 @@
+# SYNTHETIC hand-written five-record example
+{"expected": {"status": "unchanged", "value": {"amount": 2}}, "id": "tiny-valid", "raw": "{\"amount\":2}", "synthetic": true}
+{"expected": {"status": "repaired", "value": {"name": "caf\u00e9"}}, "id": "tiny-fence", "raw": "```json\n{\"name\":\"caf\u00e9\"}\n```", "synthetic": true}
+{"expected": {"status": "repaired", "value": {"items": [1, 2]}}, "id": "tiny-comma", "raw": "{\"items\":[1,2,],}", "synthetic": true}
+{"expected": {"status": "repaired", "value": {"ok": true, "path": "C:\\Users\\henry"}}, "id": "tiny-literal", "raw": "{'path': 'C:\\\\Users\\\\henry', 'ok': True}", "synthetic": true}
+{"expected": {"status": "rejected", "value": null}, "id": "tiny-truncated", "raw": "{\"missing\":", "synthetic": true}
