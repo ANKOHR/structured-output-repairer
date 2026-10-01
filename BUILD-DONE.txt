@@ -1,0 +1,19 @@
+Structured Output Repairer: local build complete, 2026-10-01.
+Tests: 53 passed (pytest, 2.69 seconds).
+Local implementation commit: e66d1f8ade5c9be57d23d5c72bec8614b9800696
+This hash identifies the tested implementation; the following documentation commit
+adds this completion record, avoiding a self-referential commit hash.
+
+Built a CPU-only, deterministic, standard-library Python CLI with fixtures, run,
+report, repair and validate commands. The pure engine conservatively recovers
+documented JSON wrapper, trailing-comma and Python-literal defects, rejects
+ambiguous or invalid values, and records every edit. Labelled synthetic fixtures
+and independent expectations cover 200 records; the installed end-to-end CLI demo
+completed in a measured 0.932236 seconds with 200 correct labels and zero false
+positives or false negatives. Reports carry provenance, computed counts and record
+traces, with atomic writes and named errors. README, EVIDENCE.md, LESSONS.md and
+REVIEW.md document boundaries, acceptance evidence and the two-week improvement
+hook. Local acceptance passed; the final real-use verdict remains pending its
+required evidence window. No real-use accuracy or savings claims are made.
+
+Publishing was not performed and remains a separate verification step.
